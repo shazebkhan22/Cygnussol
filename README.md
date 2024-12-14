@@ -13,6 +13,7 @@ git add .
 If you want to add specific files, use:
 
 git add <file-name>
+
 3. Commit Your Changes
 Once the changes are staged, commit them with a meaningful message:
 
