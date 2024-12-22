@@ -5,7 +5,7 @@ import logo from "../assets/anim/ai1.mp4";
 
 const Banner = () => {
   return (
-    <div className="bg-[linear-gradient(to_bottom,white_75%,navy_25%)] h-[65rem] flex pt-32 justify-center">
+    <div className="bg-[linear-gradient(to_bottom,white_65%,navy_35%)] h-[60rem] flex pt-32 justify-center">
       <div className="text-center max-w-6xl ">
         <h1 className="text-6xl font-bold mb-8">
           One Platform for Your Firm <br />

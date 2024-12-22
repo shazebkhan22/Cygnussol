@@ -3,7 +3,7 @@ import { caseData } from "../assets/assets";
 
 const CaseStudies = () => {
   return (
-    <div className=" bg-gradient-to-b from-white via-gray-200 to-white p-4">
+    <div className=" bg-gradient-to-b from-white from-30% to-indigo-400 p-4">
       <h1 className="text-center text-5xl font-bold mb-2">Case Studies</h1>
       <hr className="border-t-1 border-black max-w-40 mx-auto mb-8" />
 

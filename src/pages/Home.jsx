@@ -11,7 +11,7 @@ const Home = () => {
       <Banner />
 
       {/*--------------Partners------------- */}
-      <div className="bg-[url('/Users/shazebkhan/Desktop/cygnus/frontend/src/assets/')] bg-cover bg-cente pb-10">
+      <section className="bg-[url('/Users/shazebkhan/Desktop/cygnus/frontend/src/assets/')] bg-cover bg-cente pb-10">
         <h1 className=" text-3xl font-semibold text-center mt-20 mb-2">
           Trusted By The World{"'"}s Leading Private Capital Firms{" "}
         </h1>
@@ -21,14 +21,14 @@ const Home = () => {
           providing nothing but the best when it comes to their IT requirements.
         </p>
         <MovingLogos />
-      </div>
+      </section>
 
-      <div className="h-[50rem]">
-        <h1 className="text-center font-semibold text-3xl pt-10">IT Services</h1>
+      <section className="py-5">
+        <h1 className="text-center font-semibold text-3xl pt-5">IT Services</h1>
        
 
-        <div className=" mt-10 mx-auto grid grid-cols-[40%,60%] gap-4 pt-10 px-10 rounded-t-xl max-w-6xl">
-          <div className="bg-blue-500 p-4 rounded-lg text-white">
+        <div className=" mt-5 mx-auto grid grid-cols-[40%,60%] gap-4 pt-5 px-10 rounded-t-xl max-w-6xl">
+          <div className="bg-gradient-to-l from-blue-500 via-blue-700 to-blue-900 p-4 rounded-lg text-white">
             <img
               src={logo2}
               alt="Logo"
@@ -41,7 +41,7 @@ const Home = () => {
               solutions.
             </p>
           </div>
-          <div className="bg-gray-300 p-4 rounded-lg">
+          <div className="bg-gradient-to-r from-gray-300 via-gray-200 to-gray-100 p-4 rounded-lg">
             <img
               src={logo2}
               alt="Logo"
@@ -55,7 +55,7 @@ const Home = () => {
           </div>
         </div>
         <div className="mx-auto grid grid-cols-[55%,45%] gap-4 p-10 rounded-b-xl max-w-6xl">
-          <div className="bg-gray-200 p-4 rounded-lg">
+          <div className="bg-gradient-to-l from-gray-300 via-gray-200 to-gray-100 p-4 rounded-lg">
             <img
               src={logo3}
               alt="Logo"
@@ -69,7 +69,7 @@ const Home = () => {
               decrease your IT costs.
             </p>
           </div>
-          <div className="bg-blue-600 p-4 rounded-lg text-white">
+          <div className="bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900 p-4 rounded-lg text-white">
             <img
               src={logo4}
               alt="Logo"
@@ -83,15 +83,15 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </div>
+      </section>
       <Principles/>
 
       
-      <div className="h-40">
+      <section className="h-40">
         <h1 className="text-center pt-14 font-semibold text-5xl">
           Lets Work Together!
         </h1>
-      </div>
+      </section>
     </div>
   );
 };
