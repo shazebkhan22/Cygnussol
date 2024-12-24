@@ -32,7 +32,7 @@ const MovingLogos = () => {
               key={index}
               src={logo.src}
               alt={logo.alt}
-              className="h-14 object-contain"
+              className="h-16 object-contain"
             />
           ))}
         </div>

@@ -1,30 +1,26 @@
 import logo4 from "../assets/anim/ai2.mp4";
 import logo3 from "../assets/anim/ai3.mp4";
 import logo from "../assets/anim/ai1.mp4";
-
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="bg-[linear-gradient(to_bottom,white_65%,navy_35%)] h-[60rem] flex pt-32 justify-center">
+    <div className="bg-gradient-to-t from-emerald-200 via-blue-500 to-blue-900 h-[60rem] flex pt-32 justify-center">
       <div className="text-center max-w-6xl ">
-        <h1 className="text-6xl font-bold mb-8">
+        <h1 className="text-6xl text-white  font-bold mb-8">
           One Platform for Your Firm <br />
-          One Login for Your Investors
+          One Approach to IT Excellence
         </h1>
 
-        <p className="text-md mb-8">
-          At Cygnus, our team of experts brings solutions for all your back-end
-          IT requirements, while you can focus on building your business. From
-          ensuring integrated data storage, to seamless connectivity to
-          end-point security, our solutions ensure every aspect of your IT
-          requirement is taken care of.
+        <p className="text-md text-white mb-8">
+          At Cygnus, we manage your backend IT infrastructure, encompassing data storage, connectivity and security allowing you to focus on growth.
         </p>
 
         <button className="text-white bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
-          Lets Talk {"->"}
+          <Link to="/contact">Lets Talk {"->"}</Link>
         </button>
 
-        <div className="mt-10 bg-gradient-to-b from-blue-900 via-blue-500 to-white mx-auto grid grid-cols-3 gap-4 rounded-xl p-10">
+        <div className="mt-10 bg-gradient-to-t from-blue-900 via-blue-500 to-white mx-auto grid grid-cols-3 gap-4 rounded-xl p-10">
           {/** --------- Three Columns ----------- */}
 
           <div className="bg-white p-4 rounded-lg">

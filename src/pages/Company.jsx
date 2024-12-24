@@ -4,6 +4,7 @@ import collage from "../assets/collage.png";
 import BoxContainer from "../components/BoxContainer";
  import GlobeComponent from "../components/GlobeComponent";
 import { values } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 const Company = () => {
   return (
@@ -138,8 +139,8 @@ const Company = () => {
           Want to join us?
         </h2>
         <p className="text-center mb-8">Want to come along for a ride?</p>
-        <button className="text-white bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-md px-5 py-2.5 text-center">
-          Contact
+        <button className="text-white bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+          <Link to="/contact">Contact Us</Link>
         </button>
       </section>
 

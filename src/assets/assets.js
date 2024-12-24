@@ -20,6 +20,22 @@ import logo2 from "../assets/industrypics/Banking.png";
 import logo3 from "../assets/industrypics/Banking.png";
 import logo4 from "../assets/industrypics/Banking.png";
 
+import bg1 from "../assets/bgimages/bg1.jpg";
+import bg2 from "../assets/bgimages/bg2.jpg";
+import bg3 from "../assets/bgimages/bg3.jpg";
+import bg4 from "../assets/bgimages/bg4.jpg";
+import bg5 from "../assets/bgimages/bg5.jpg";
+
+
+export const bgimages = [
+  {image: bg1},
+  {image:bg2},
+  {image: bg3},
+  {image:bg4},
+  {image:bg5}
+
+]
+
 
 export const caseData = [
   {

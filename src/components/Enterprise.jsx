@@ -7,7 +7,7 @@ const Enterprise = () => {
       </h2>
       <div className="m-10 mx-auto max-w-6xl">
         {/* First Div */}
-        <div className="bg-blue-300 max-w-3xl text-xl px-6 py-4 rounded-xl mr-auto mb-10 shadow-xl">
+        <div className="bg-sky-300 max-w-3xl text-xl px-6 py-4 rounded-xl mr-auto mb-10 shadow-xl">
           <div className="flex gap-6 items-center">
             <img
               src={logo}
@@ -27,7 +27,7 @@ const Enterprise = () => {
         </div>
 
         {/* Second Div */}
-        <div className="bg-gray-300 max-w-3xl text-xl px-6 py-4 rounded-xl ml-auto mb-10 shadow-lg">
+        <div className="bg-indigo-300 max-w-3xl text-xl px-6 py-4 rounded-xl ml-auto mb-10 shadow-lg">
           <div className="flex gap-6 items-center">
             <img
               src={logo}
@@ -50,7 +50,7 @@ const Enterprise = () => {
         </div>
 
         {/* Third Div */}
-        <div className="bg-blue-400 max-w-3xl text-xl px-6 py-4 rounded-xl mr-auto shadow-lg">
+        <div className="bg-violet-200 max-w-3xl text-xl px-6 py-4 rounded-xl mr-auto shadow-lg">
           <div className="flex gap-6 items-center">
             <img
               src={logo}

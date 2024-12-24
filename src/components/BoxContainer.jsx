@@ -29,7 +29,7 @@ const BoxContainer = () => {
   return (
     <div className="mx-auto max-w-5xl flex justify-evenly mb-24">
       {boxData.map((box, index) => (
-        <div key={index} className={`${box.bgColor} h-40 w-52 rounded-2xl p-2`}>
+        <div key={index} className={`${box.bgColor} h-40 w-52 rounded-2xl p-4`}>
           <h2 className="font-medium text-3xl mb-6">{box.heading}</h2>
           <h3 className="text-xl ">{box.subheading}</h3>
           <p className="">{box.content}</p>
